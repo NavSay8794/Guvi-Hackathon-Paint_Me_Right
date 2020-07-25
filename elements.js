@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+    homePage()
+})
+
 let homePage  = () =>{
     document.body.innerHTML = ''
     var divM = document.createElement("DIV")
@@ -37,11 +41,13 @@ let homePage  = () =>{
     button.innerHTML = "Let's Begin &nbsp <i class='fa fa-paint-brush'></i>"
 }
 
-var counter = 0
+// var counter = 0
 
-if (counter == 0) {
-    homePage()
-}
+// if (counter == 0) {
+//     homePage()
+// }
+
+
 
 let countDownLoader = () =>{
     counter = 1
