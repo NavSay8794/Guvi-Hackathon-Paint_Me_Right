@@ -1,0 +1,254 @@
+body{
+    background-image: linear-gradient(to right , rgb(0, 255, 200), rgb(0, 217, 255));
+}
+
+.container{
+    width: 40vw;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.brand{
+    flex: 50%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive , sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+#heading{
+    flex: 50%;
+    padding: 10px;
+}
+
+#iconic{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    justify-content: space-around;
+}
+
+.starting{
+    flex: 50%;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* border-top: 1px solid black; */
+    
+}
+
+.innerStart{
+    flex: 100%;
+    padding: 100px 50px;
+    margin: auto;
+}
+
+#startButton{
+    width: 170px;
+    height: 40px;
+    background-color: #0358f5;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: 'Dancing Script', cursive , sans-serif;
+}
+
+.fa{
+    float: right;
+}
+
+
+/* countdown*/
+.countdownTimer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script', cursive , sans-serif;
+    font-size: 3rem;
+    width: 20vw;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+/* levels */
+.l1div{
+    width: 35vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.l1div1 , .l1div3 {
+    flex: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.l1div2{
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.idiv1d1 ,.idiv1d2 , .idiv1d3{
+    flex: 30%;
+    
+}
+
+.idiv1d1{
+    text-align: left;
+    font-family: 'Dancing Script', cursive , sans-serif;
+    font-size: 1.5rem;
+}
+.idiv1d2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive , sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.idiv1d2x , .idiv1d1x{
+    margin: 10px;
+    padding: 20px;
+}
+
+.idiv1d3{
+   text-align: right;
+   font-size: 1.5rem;
+   font-family: 'Dancing Script', cursive , sans-serif;
+   padding: 30px 20px 25px;
+}
+
+
+.idiv2d1 ,.idiv2d2{
+    flex: 50%;
+    /* border: 1px solid black; */
+}
+
+.idiv2d1x{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+}
+
+
+#cir1 , #cir2 ,#cir3, #cir4{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.idiv2d2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* palate */
+#palatediv{
+    flex: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+#palate{
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#color1, #color2, #color3, #color4, #color5, #color6{
+    flex: 16%
+}
+
+#butt1,#butt2,#butt3,#butt4,#butt5,#butt6{
+    width: 100%;
+    height: 100%;
+}
+
+#buttonArea{
+    flex: 50%;
+    /* border: 1px solid black; */
+}
+
+#starter{
+    width:  80%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+
+#beginbutton{
+    width: 170px;
+    height: 40px;
+    background-color: #5cf503;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: 'Dancing Script', cursive , sans-serif;
+}
+
+#backToMain{
+    display: flex;
+    width: 100%;
+}
+
+#backer{
+    width:  80%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+
+#backbutton{
+    width: 170px;
+    height: 80px;
+    background-color: #ce0606;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: 'Dancing Script', cursive , sans-serif;
+}
